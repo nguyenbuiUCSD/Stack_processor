@@ -1,0 +1,81 @@
+H:/DATA/CSE141L/LAB/push_tb.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/push_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module push_tb
+
+Top level modules:
+	push_tb
+
+} {} {}} H:/DATA/CSE141L/LAB/sc.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/sc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package sc_sv_unit
+-- Importing package definitions
+-- Compiling module sc
+
+Top level modules:
+	sc
+
+} {} {}} H:/DATA/CSE141L/LAB/alu.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package alu_sv_unit
+-- Importing package definitions
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} H:/DATA/CSE141L/LAB/lut_sc.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/lut_sc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lut_sc
+
+Top level modules:
+	lut_sc
+
+} {} {}} H:/DATA/CSE141L/LAB/top.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package top_sv_unit
+-- Importing package definitions
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} H:/DATA/CSE141L/LAB/pc.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/pc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package pc_sv_unit
+-- Importing package definitions
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} H:/DATA/CSE141L/LAB/dc.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/dc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package dc_sv_unit
+-- Importing package definitions
+-- Compiling module dc
+
+Top level modules:
+	dc
+
+} {} {}} H:/DATA/CSE141L/LAB/definitions.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/definitions.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package definitions
+
+Top level modules:
+	--none--
+
+} {} {}} H:/DATA/CSE141L/LAB/imem.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/imem.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} H:/DATA/CSE141L/LAB/mux2.sv {1 {vlog -work work -sv -stats=none H:/DATA/CSE141L/LAB/mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}}

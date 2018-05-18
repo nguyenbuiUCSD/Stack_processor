@@ -1,0 +1,1000 @@
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# vsim -gui work.push_tb 
+# Start time: 18:30:49 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/push_tb/t1/imem1/inst
+restart -f
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# Compile of definitions.sv was successful.
+vsim -gui work.push_tb
+# End time: 18:38:16 on May 11,2018, Elapsed time: 0:07:27
+# Errors: 0, Warnings: 3
+# vsim -gui work.push_tb 
+# Start time: 18:38:16 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# ** Error: (vsim-13) Recompile work.top_sv_unit because work.definitions has changed.
+# ** Error (suppressible): (vsim-12) Recompile work.top after work.top_sv_unit is recompiled.
+# ** Error: (vsim-13) Recompile work.top because work.definitions has changed.
+# Error loading design
+# End time: 18:38:17 on May 11,2018, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# vsim -gui work.push_tb 
+# Start time: 18:39:06 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint sim:/push_tb/t1/alu1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 18:48:13 on May 11,2018, Elapsed time: 0:09:07
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 18:48:13 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.push_tb
+# End time: 18:54:56 on May 11,2018, Elapsed time: 0:06:43
+# Errors: 1, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 18:54:56 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 19:02:21 on May 11,2018, Elapsed time: 0:07:25
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 19:02:21 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint sim:/push_tb/t1/rf1/*
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+restart -f
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Paste insertion failed: always_comb: (vish-4014) No objects found matching 'always_comb'.
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 19:37:37 on May 11,2018, Elapsed time: 0:35:16
+# Errors: 37, Warnings: 6
+# vsim -gui work.push_tb 
+# Start time: 19:37:37 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 19:40:50 on May 11,2018, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 19:40:50 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 10 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+run -all
+# no done received
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(20)
+#    Time: 220 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 20
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 19:43:29 on May 11,2018, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 19:43:29 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 19:45:49 on May 11,2018, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 19:45:49 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 105 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/di
+restart -f
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 105 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/op
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/SC
+restart -f
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 105 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 19:51:53 on May 11,2018, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 3
+# vsim -gui work.push_tb 
+# Start time: 19:51:53 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/di
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/SC
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/reset
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/op
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 105 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+add wave -position insertpoint  \
+sim:/push_tb/t1/imem1/inst
+restart -f
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 105 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/clk \
+sim:/push_tb/t1/rf1/di \
+sim:/push_tb/t1/rf1/we \
+sim:/push_tb/t1/rf1/sc \
+sim:/push_tb/t1/rf1/do_a \
+sim:/push_tb/t1/rf1/do_b \
+sim:/push_tb/t1/rf1/core
+restart -f
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 105 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 20:08:02 on May 11,2018, Elapsed time: 0:16:09
+# Errors: 18, Warnings: 4
+# vsim -gui work.push_tb 
+# Start time: 20:08:02 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/di
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 105 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 20:13:46 on May 11,2018, Elapsed time: 0:05:44
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 20:13:46 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv failed with 2 errors.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of rf.sv failed with 2 errors.
+# Compile of rf.sv was successful.
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 20:27:45 on May 11,2018, Elapsed time: 0:13:59
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 20:27:45 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/do_a \
+sim:/push_tb/t1/rf1/do_b
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/sc
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/di
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/SC
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/op
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Load canceled
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 20:32:05 on May 11,2018, Elapsed time: 0:04:20
+# Errors: 1, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 20:32:05 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/op \
+sim:/push_tb/t1/sc1/clk \
+sim:/push_tb/t1/sc1/reset \
+sim:/push_tb/t1/sc1/SC
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/di \
+sim:/push_tb/t1/rf1/we \
+sim:/push_tb/t1/rf1/do_a \
+sim:/push_tb/t1/rf1/do_b \
+sim:/push_tb/t1/rf1/core
+add wave -position insertpoint  \
+sim:/push_tb/t1/pc1/PC
+add wave -position insertpoint  \
+sim:/push_tb/t1/imem1/inst
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+add wave -position insertpoint  \
+sim:/push_tb/t1/alu1/rslt
+restart -f
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv failed with 2 errors.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 20:51:57 on May 11,2018, Elapsed time: 0:19:52
+# Errors: 0, Warnings: 2
+# vsim -gui work.push_tb 
+# Start time: 20:51:57 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf_sv_unit
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+# ** Warning: (vsim-3017) H:/DATA/CSE141L/LAB/top.sv(50): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/rf1 File: H:/DATA/CSE141L/LAB/rf.sv
+# ** Warning: (vsim-3722) H:/DATA/CSE141L/LAB/top.sv(50): [TFMPC] - Missing connection for port 'op'.
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/SC
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 20:55:00 on May 11,2018, Elapsed time: 0:03:03
+# Errors: 0, Warnings: 3
+# vsim -gui work.push_tb 
+# Start time: 20:55:00 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf_sv_unit
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint  \
+sim:/push_tb/t1/pc1/clk \
+sim:/push_tb/t1/pc1/reset \
+sim:/push_tb/t1/pc1/PC
+add wave -position insertpoint  \
+sim:/push_tb/t1/imem1/inst
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/SC
+add wave -position insertpoint  \
+sim:/push_tb/t1/sc1/op
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+add wave -position insertpoint  \
+sim:/push_tb/t1/TOP_ST \
+sim:/push_tb/t1/SND_ST
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/di
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# Compile of dc.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of push_tb.sv was successful.
+# Compile of rf.sv was successful.
+# Compile of sc.sv was successful.
+# Compile of top.sv was successful.
+# Compile of lut_sc.sv was successful.
+# Compile of alu.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.push_tb
+# End time: 20:57:29 on May 11,2018, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 1
+# vsim -gui work.push_tb 
+# Start time: 20:57:29 on May 11,2018
+# Loading sv_std.std
+# Loading work.push_tb
+# Loading work.definitions
+# Loading work.top_sv_unit
+# Loading work.top
+# Loading work.pc_sv_unit
+# Loading work.pc
+# Loading work.imem
+# Loading work.dc_sv_unit
+# Loading work.dc
+# Loading work.rf_sv_unit
+# Loading work.rf
+# Loading work.sc_sv_unit
+# Loading work.sc
+# Loading work.mux2
+# Loading work.alu_sv_unit
+# Loading work.alu
+# ** Warning: (vsim-3015) H:/DATA/CSE141L/LAB/top.sv(34): [PCDPC] - Port size (9) does not match connection size (8) for port 'PC'. The port definition is at: H:/DATA/CSE141L/LAB/pc.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /push_tb/t1/pc1 File: H:/DATA/CSE141L/LAB/pc.sv
+add wave -position insertpoint sim:/push_tb/t1/*
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/core
+add wave -position insertpoint  \
+sim:/push_tb/t1/rf1/di
+run -all
+# ** Note: $stop    : H:/DATA/CSE141L/LAB/push_tb.sv(25)
+#    Time: 95 ns  Iteration: 0  Instance: /push_tb
+# Break in Module push_tb at H:/DATA/CSE141L/LAB/push_tb.sv line 25
+# End time: 21:24:21 on May 11,2018, Elapsed time: 0:26:52
+# Errors: 0, Warnings: 1
